@@ -6,9 +6,11 @@ const root = resolve(__dirname);
 export default defineConfig({
   root,
   base: "./",
+
   build: {
     outDir: "dist",
     emptyOutDir: true,
+
     rollupOptions: {
       input: {
         home: resolve(root, "index.html"),
@@ -41,6 +43,7 @@ export default defineConfig({
       },
     },
   },
+
   server: {
     port: 5173,
     open: "/ar/index.html",
