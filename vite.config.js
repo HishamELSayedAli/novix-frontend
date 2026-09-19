@@ -35,7 +35,6 @@ export default defineConfig({
         prjNaseem: resolve(root, "projects/naseem.html"),
         prjRecipe: resolve(root, "projects/recipe-app.html"),
         prjAboKartona: resolve(root, "projects/abo-kartona.html"),
-        prjHodhod: resolve(root, "projects/hodhod.html"),
 
         privacy: resolve(root, "privacy.html"),
         terms: resolve(root, "terms.html"),
