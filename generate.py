@@ -17,7 +17,7 @@ SITE = {
     "name": "NOVIX",
     "tagline_ar": "Design · Develop · Create",
     "tagline_en": "Design · Develop · Create",
-    "phone": "+20 10 1234 5678",
+    "phone": "+20 1214339881",
     "email": "contact.novix.info@gmail.com",
     "address_ar": "القاهرة - مصر",
     "address_en": "Cairo, Egypt",
@@ -212,6 +212,7 @@ ICONS = {
     "yt": '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12s0-3.2-.4-4.7a3 3 0 0 0-2.1-2.1C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.5.4A3 3 0 0 0 2.4 7.3C2 8.8 2 12 2 12s0 3.2.4 4.7a3 3 0 0 0 2.1 2.1c1.6.4 7.5.4 7.5.4s5.9 0 7.5-.4a3 3 0 0 0 2.1-2.1C22 15.2 22 12 22 12Zm-12 3V9l5 3-5 3Z"/></svg>',
     "github": '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1-1.5-1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5a4 4 0 0 1 1-2.7c-.1-.3-.5-1.3.1-2.6 0 0 .9-.3 2.9 1a10 10 0 0 1 5.2 0c2-1.3 2.9-1 2.9-1 .6 1.3.2 2.3.1 2.6a4 4 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>',
     "external": '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    "whatsapp": '<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/></svg>',
 }
 
 TRUST_POINTS = [
@@ -389,11 +390,11 @@ def render_footer(lang, base):
           <a href="{base}{lang}/index.html" class="brand"><span class="brand-mark">N</span><span>{SITE['name']}</span></a>
           <p>{t['footer_desc']}</p>
           <div class="social-row">
-            <a href="#" aria-label="Facebook">{ICONS['fb']}</a>
-            <a href="#" aria-label="X">{ICONS['x']}</a>
-            <a href="#" aria-label="Instagram">{ICONS['ig']}</a>
-            <a href="https://www.linkedin.com/company/ai-smart-technology" aria-label="LinkedIn">{ICONS['li']}</a>
-            <a href="#" aria-label="YouTube">{ICONS['yt']}</a>
+            <a href="https://www.facebook.com/2Vboob" target="_blank" aria-label="Facebook">{ICONS['fb']}</a>
+            <a href="https://wa.me/201214339881" target="_blank" aria-label="WhatsApp">{ICONS['whatsapp']}</a>
+            <a href="https://www.instagram.com/no___vix?stkn=MWxyMGwxaTNwdjI0ag==" target="_blank" aria-label="Instagram">{ICONS['ig']}</a>
+            <a href="https://www.linkedin.com/company/ai-smart-technology" target="_blank" aria-label="LinkedIn">{ICONS['li']}</a>
+            <a href="#" target="_blank" aria-label="YouTube">{ICONS['yt']}</a>   
           </div>
         </div>
         <div class="footer-col">
@@ -928,10 +929,10 @@ def build_contact_page(lang):
         <div class="contact-info-item">{ICONS['pin']}<span>{address}</span></div>
         <hr class="divider">
         <div class="social-row">
-          <a href="#" aria-label="Facebook">{ICONS['fb']}</a>
-          <a href="#" aria-label="X">{ICONS['x']}</a>
-          <a href="#" aria-label="Instagram">{ICONS['ig']}</a>
-          <a href="#" aria-label="LinkedIn">{ICONS['li']}</a>
+          <a href="https://www.facebook.com/2Vboob" target="_blank" aria-label="Facebook">{ICONS['fb']}</a>
+          <a href="https://wa.me/201214339881" target="_blank" aria-label="WhatsApp">{ICONS['whatsapp']}</a> 
+          <a href="https://www.instagram.com/no___vix?stkn=MWxyMGwxaTNwdjI0ag==" target="_blank" aria-label="Instagram">{ICONS['ig']}</a>
+          <a href="https://www.linkedin.com/company/ai-smart-technology/" target="_blank" aria-label="LinkedIn">{ICONS['li']}</a>
         </div>
       </div>
 """
